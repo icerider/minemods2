@@ -1,6 +1,7 @@
 # minemods2
 
-```git clone git://github.com/icerider/minemods2 skylands
+```
+git clone git://github.com/icerider/minemods2 skylands
 cd .minecraft
 mv mods mods_old
 mv config config_old
