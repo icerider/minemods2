@@ -270,3 +270,7 @@ recipes.remove(<minecraft:stone_pickaxe>);
 recipes.remove(<minecraft:stone_axe>);
 recipes.remove(<minecraft:stone_shovel>);
 recipes.remove(<minecraft:stone_hoe>);
+recipes.addShaped(<minecraft:end_portal_frame>*12,
+	[[<minecraft:obsidian>,<minecraft:obsidian>,<minecraft:obsidian>],
+	[<minecraft:obsidian>,<minecraft:nether_star>,<minecraft:obsidian>],
+	[<minecraft:obsidian>,<minecraft:obsidian>,<minecraft:obsidian>]]);
