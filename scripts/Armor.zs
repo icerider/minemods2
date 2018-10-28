@@ -92,41 +92,47 @@ recipes.addShaped(<actuallyadditions:item_chest_crystal_white>,
 	[[<primal:iron_ring>, null, <primal:iron_ring>],
 	 [<actuallyadditions:item_crystal:5>, <minecraft:leather_chestplate>, <actuallyadditions:item_crystal:5>],
 	 [<actuallyadditions:item_crystal:5>,<actuallyadditions:item_crystal:5>,<actuallyadditions:item_crystal:5>]]);
+
 recipes.remove(<actuallyadditions:item_chest_crystal_red>);
 recipes.addShaped(<actuallyadditions:item_chest_crystal_red>,
-	[[null, null, null],
-	 [<primal:iron_ring>, null, <primal:iron_ring>],
-	 [<actuallyadditions:item_misc:5>, <minecraft:leather_boots>,<actuallyadditions:item_misc:5>]]);
+	[[<primal:iron_ring>, null, <primal:iron_ring>],
+	 [<actuallyadditions:item_crystal>, <minecraft:leather_chestplate>, <actuallyadditions:item_crystal>],
+	 [<actuallyadditions:item_crystal>,<actuallyadditions:item_crystal>,<actuallyadditions:item_crystal>]]);
+
 recipes.remove(<actuallyadditions:item_chest_quartz>);
 recipes.addShaped(<actuallyadditions:item_chest_quartz>,
-	[[null, null, null],
-	 [<primal:iron_ring>, null, <primal:iron_ring>],
-	 [<minecraft:emerald>, <minecraft:leather_boots>,<minecraft:emerald>]]);
+	[[<primal:iron_ring>, null, <primal:iron_ring>],
+	 [<actuallyadditions:item_misc:5>, <minecraft:leather_chestplate>, <actuallyadditions:item_misc:5>],
+	 [<actuallyadditions:item_misc:5>, <actuallyadditions:item_misc:5>,<actuallyadditions:item_misc:5>]]);
+
 recipes.remove(<actuallyadditions:item_chest_emerald>);
 recipes.addShaped(<actuallyadditions:item_chest_emerald>,
-	[[null, null, null],
-	 [<primal:iron_ring>, null, <primal:iron_ring>],
-	 [<actuallyadditions:item_crystal:1>, <minecraft:leather_boots>,<actuallyadditions:item_crystal:1>]]);
+	[[<primal:iron_ring>, null, <primal:iron_ring>],
+	 [<minecraft:emerald>, <minecraft:leather_chestplate>, <minecraft:emerald>],
+	 [<minecraft:emerald>, <minecraft:emerald>, <minecraft:emerald>]]);
+
 recipes.remove(<actuallyadditions:item_chest_crystal_blue>);
 recipes.addShaped(<actuallyadditions:item_chest_crystal_blue>,
-	[[null, null, null],
-	 [<primal:iron_ring>, null, <primal:iron_ring>],
-	 [<actuallyadditions:item_crystal:2>, <minecraft:leather_boots>,<actuallyadditions:item_crystal:2>]]);
+	[[<primal:iron_ring>, null, <primal:iron_ring>],
+	 [<actuallyadditions:item_crystal:1>, <minecraft:leather_chestplate>, <actuallyadditions:item_crystal:1>],
+	 [<actuallyadditions:item_crystal:1>, <actuallyadditions:item_crystal:1>, <actuallyadditions:item_crystal:1>]]);
+
 recipes.remove(<actuallyadditions:item_chest_crystal_light_blue>);
 recipes.addShaped(<actuallyadditions:item_chest_crystal_light_blue>,
-	[[null, null, null],
-	 [<primal:iron_ring>, null, <primal:iron_ring>],
-	 [<actuallyadditions:item_crystal:3>, <minecraft:leather_boots>,<actuallyadditions:item_crystal:3>]]);
+	[[<primal:iron_ring>, null, <primal:iron_ring>],
+	 [<actuallyadditions:item_crystal:2>, <minecraft:leather_chestplate>, <actuallyadditions:item_crystal:2>],
+	 [<actuallyadditions:item_crystal:2>, <actuallyadditions:item_crystal:2>, <actuallyadditions:item_crystal:2>]]);
+
 recipes.remove(<actuallyadditions:item_chest_crystal_black>);
 recipes.addShaped(<actuallyadditions:item_chest_crystal_black>,
-	[[null, null, null],
-	 [<primal:iron_ring>, null, <primal:iron_ring>],
-	 [<actuallyadditions:item_crystal:4>, <minecraft:leather_boots>,<actuallyadditions:item_crystal:4>]]);
+	[[<primal:iron_ring>, null, <primal:iron_ring>],
+	 [<actuallyadditions:item_crystal:3>, <minecraft:leather_chestplate>, <actuallyadditions:item_crystal:3>],
+	 [<actuallyadditions:item_crystal:3>, <actuallyadditions:item_crystal:3>, <actuallyadditions:item_crystal:3>]]);
 recipes.remove(<actuallyadditions:item_chest_crystal_green>);
 recipes.addShaped(<actuallyadditions:item_chest_crystal_green>,
-	[[null, null, null],
-	 [<primal:iron_ring>, null, <primal:iron_ring>],
-	 [<actuallyadditions:item_chest_crystal_green>, <minecraft:leather_boots>,<actuallyadditions:item_chest_crystal_green>]]);
+	[[<primal:iron_ring>, null, <primal:iron_ring>],
+	 [<actuallyadditions:item_crystal:4>, <minecraft:leather_chestplate>, <actuallyadditions:item_crystal:4>],
+	 [<actuallyadditions:item_crystal:4>, <actuallyadditions:item_crystal:4>, <actuallyadditions:item_crystal:4>]]);
 
 //// LEGGINS
 
