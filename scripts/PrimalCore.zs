@@ -13,3 +13,4 @@ recipes.addShaped(<primal:carbonate_slack> * 4, [[<ore:toolMalletMetal>, null], 
 recipes.remove(<minecraft:flint_and_steel>);
 recipes.addShapeless(<minecraft:flint_and_steel>, [<ore:ringIron>, <ore:flakeFlint>]);
 
+recipes.addShapeless(<thaumcraft:ingot:2>, [<tconstruct:ingot:5>]);
