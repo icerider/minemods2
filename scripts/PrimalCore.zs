@@ -14,3 +14,4 @@ recipes.remove(<minecraft:flint_and_steel>);
 recipes.addShapeless(<minecraft:flint_and_steel>, [<ore:ringIron>, <ore:flakeFlint>]);
 
 recipes.addShapeless(<thaumcraft:ingot:2> * 2, [<tconstruct:ingots:5>, <tconstruct:ingots:5>]);
+recipes.addShapeless(<sgcraft:naquadah> * 2, [<ore:ingotNickel>, <ore:ingotPalladium>]);
